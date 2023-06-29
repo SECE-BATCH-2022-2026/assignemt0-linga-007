@@ -1,0 +1,812 @@
+
+.video{
+    position: absolute;
+    object-fit: cover;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 260%;
+    pointer-events: none;
+   
+}
+.main{
+    background-color:#020318;
+    left: 167px;
+    position: relative;
+    right: -600px;
+    width:1000px;
+    bottom: 20px;
+    height:1500px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(5px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+
+
+    
+}
+.left{
+    
+    padding: 5px;
+    background-color: rgb(201, 205, 207);
+    width:325px;
+    height:1430px;
+    position: relative;
+    left: 60px;
+    bottom:90px;
+    top:30px;
+    float: left;
+    background : transparent ;
+    border : 2px solid rgba(225, 255, 255, .5) ;
+    border-radius: 20px ;
+    backdrop-filter: blur(20px) ;
+    box-shadow : 0 0 30px rgba(225, 255, 255, .5) ;
+}
+
+.name{
+    text-align:center;
+    position: relative;
+    top:20px;
+    font-family: MS PGothic;
+    font-size:15px;
+    color: aliceblue;
+}
+
+.img{
+    
+    display: flex;
+    image-rendering: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 10px;
+    position: relative;
+    top:10px;
+}
+.img img{
+    border-radius: 70px;
+}
+.basic{
+    text-align: center;
+
+}
+.number{
+    position: relative;
+    top:10px;
+    font-size: 25px;
+    z-index: 99;
+    left: -30px;
+    color: aliceblue;
+}
+.number ion-icon {
+    color: aliceblue ;
+  }
+
+.mail{
+    position: relative;
+    top:20px;
+    font-size: 23px;
+    left: -15px;
+    z-index: 99;
+    color: aliceblue;
+
+}
+.mail ion-icon {
+    color: aliceblue;
+  }
+
+.line{
+    position: relative;
+    top: 30px;
+    border: none;
+    border-top: 1px solid aliceblue;
+    margin: px 0;
+    color: aliceblue;
+
+}
+
+.profile{
+    position: relative;
+    top:40px;
+    color: aliceblue;
+    left:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.github{
+    position: relative;
+    top:40px;
+    left:50px;
+    color: aliceblue;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.github a{
+    color: aliceblue;
+}
+.imgg{
+    position: relative;
+    top:-90px;
+    left:130px;
+    font-size:50px;
+
+}
+
+.linkedin{
+    position: relative;
+    top:-50px;
+    color: aliceblue;
+
+    left:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.imgl{
+    position: relative;
+    top:-90px;
+    left:130px;
+    font-size:50px;
+}
+.linkedin a{
+    color:aliceblue;
+}
+
+._line{
+    position: relative;
+    top: -110px;
+    border: none;
+    border-top: 1px solid aliceblue;
+    margin: px 0;
+}
+
+.circle {
+    position: relative;
+    top:50px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 10px solid rgb(4, 83, 53);
+    left: 500px;
+    z-index: 99 ;
+}
+
+.circle1{
+    position: relative;
+    top:-95px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 10px solid rgb(4, 83, 53);
+    left: 770px;
+    z-index: 99;
+}
+
+.lang{
+    color: white;
+    position: relative;
+    top:-1400px;
+    left:35px;
+}
+.m{
+    position: relative;
+    left:-20px;
+}
+
+.lang1{
+    color: white;
+    position: relative;
+    top:-1250px;
+    left: 20px;
+}
+
+.E{
+    position: relative;
+    left:-3px;
+}
+
+.line_{
+    position: relative;
+    top: -30px;
+    border: 1px solid rgb(201, 205, 207);
+    margin: px 0;
+    width: 450px;
+    left:475px;
+}
+
+.skill{
+    position: relative;
+    top:-40px;
+    color: aliceblue;
+    left: 150px;
+}
+
+.circle2{
+    position: relative;
+    top:0px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(201, 205, 207);
+    left: 480px;
+    z-index: 99;
+}
+
+.circle3{
+    position: relative;
+    top:-125px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(201, 205, 207);
+    left: 595px;
+    z-index: 99;
+   
+}
+
+.circle4{
+    position: relative;
+    top:-250px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(201, 205, 207);
+    left: 710px;
+    z-index: 99;
+}
+
+.circle5{
+    position: relative;
+    top:-375px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(201, 205, 207);
+    left: 825px;
+    z-index: 99;
+}
+
+.python{
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    top:-1050px;
+    left:30px;
+    width: 60px;
+    height: 60px;
+}
+
+.html{
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    left:42px;
+    top:-915px;
+}
+
+.flask{
+    position: relative;
+    color: aliceblue;
+    size: 30px;
+    left:05px;
+    top:-815px;
+    width:100px;
+}
+.flask1{
+    position: relative;
+    font-size: 30px;
+    top: -910px;
+    color: aliceblue;
+    left:22px ;
+}
+
+.sql1{
+    position: relative;
+    color: aliceblue;
+    left:30px;
+    top:-685px;
+    width: 60px;
+    height: 60px;
+   
+    
+}
+.sql2{
+    position: relative;
+    font-size:25px;
+    left: 12px;
+    color: aliceblue;
+    top: -735px;
+}
+.c{
+    position: relative;
+    top:-930px;
+    left: 28px;
+    height: 60px;
+    width: 60px;
+}
+
+.c1{
+    position: relative;
+    font-size: 30px;
+    top: -990px;
+    color: aliceblue;
+    left: 47px;
+}
+
+.dot1{
+    position: absolute;
+    top: 100px;
+    left:60px;
+    width: 4px;
+    height:4px;
+    background-color: rgb(241, 239, 239);
+    border-radius: 50%;
+}
+.line2{
+    width: 1px;
+    height: 100px;
+    background-color: rgb(236, 232, 232);
+    position: relative;
+    top:-1050px;
+    left:62px;
+}
+.line3{
+    width: 1px;
+    height: 175px;
+    background-color: rgb(236, 232, 232);
+    position: relative;
+    top:-926px;
+    left:59px;
+}
+.line4{
+    width: 1px;
+    height: 100px;
+    background-color: rgb(236, 232, 232);
+    position: relative;
+    top:-845px;
+    left:62px;
+}
+.line5{
+    width: 1px;
+    height: 175px;
+    background-color: rgb(236, 232, 232);
+    position: relative;
+    top: -680px;
+    left:60px;
+    color: aliceblue;
+
+}
+.python1{
+    position: relative;
+    font-size: 30px;
+    color: aliceblue;
+    top: -1100px;
+    left: 10px;
+}
+
+.dot2{
+    position: absolute;
+    top: 95px;
+    left:57px;
+    width: 4px;
+    height:4px;
+    background-color: rgb(241, 239, 239);
+    border-radius: 50%;
+}
+.dot3{
+    position: absolute;
+    top: 92px;
+    left:60px;
+    width: 4px;
+    height:4px;
+    background-color: rgb(241, 239, 239);
+    border-radius: 50%;
+}
+.dot4{
+    position: absolute;
+    top: 92px;
+    left:58px;
+    width: 4px;
+    height:4px;
+    background-color: rgb(241, 239, 239);
+    border-radius: 50%;
+}
+
+h6{
+    position: relative;
+    top:-55px;
+    left:-15px;
+
+}
+
+.os{
+    position: relative;
+    top:-150px;
+    color: aliceblue;
+    left: 160px;
+}
+
+.line__{
+    position: relative;
+    top: -145px;
+    border:0.1mm solid rgb(201, 205, 207);
+    margin: px 0;
+    width: 450px;
+    left:480px;
+}
+
+.skills_content{
+    position: absolute;
+    top:100px;
+    left:800px;
+    color: aliceblue;
+    z-index: 99;
+}
+
+.pres{
+    position: relative;
+    top: 740px;
+    color: aliceblue;
+    left: -300px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.dotsp1{
+    position:relative;
+    top:725px;
+    left:-100px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+    z-index:99;
+}
+.dotsp2{
+    position:relative;
+    top:715px;
+    left:-80px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsp3{
+    position:relative;
+    top:705px;
+    left:-60px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsp4{
+    position:relative;
+    top:695px;
+    left:-40px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsp5{
+    position:relative;
+    top:685px;
+    left:-20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+
+.dotsp6{
+    position:relative;
+    top:675px;
+    left:0px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+
+.dotsp7{
+    position:relative;
+    top: 665px;
+    left:20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+
+.commu{
+    position: relative;
+    top: 720px;
+    color: aliceblue;
+    left:-300px;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dotsc1{
+    position:relative;
+    top:705px;
+    left:-100px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+    z-index:99;
+}
+.dotsc2{
+    position:relative;
+    top:695px;
+    left:-80px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsc3{
+    position:relative;
+    top:685px;
+    left:-60px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsc4{
+    position:relative;
+    top:675px;
+    left:-40px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsc5{
+    position:relative;
+    top:665px;
+    left:-20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+
+.dotsc6{
+    position:relative;
+    top:655px;
+    left:0px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+
+.dotsc7{
+    position:relative;
+    top:645px;
+    left:20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+.lead{
+    position: relative;
+    top: 700px;
+    color: aliceblue;
+    left:-300px;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dotsl1{
+    position:relative;
+    top:685px;
+    left:-100px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+    z-index:99;
+}
+.dotsl2{
+    position:relative;
+    top:675px;
+    left:-80px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsl3{
+    position:relative;
+    top:665px;
+    left:-60px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsl4{
+    position:relative;
+    top:655px;
+    left:-40px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotsl5{
+    position:relative;
+    top:645px;
+    left:-20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+
+.dotsl6{
+    position:relative;
+    top:635px;
+    left:0px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+
+.dotsl7{
+    position:relative;
+    top:625px;
+    left:20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+
+.solv{
+    position: relative;
+    top: 680px;
+    color: aliceblue;
+    left:-300px;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dotss1{
+    position:relative;
+    top:665px;
+    left:-100px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+    z-index:99;
+}
+.dotss2{
+    position:relative;
+    top:655px;
+    left:-80px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotss3{
+    position:relative;
+    top:645px;
+    left:-60px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotss4{
+    position:relative;
+    top:635px;
+    left:-40px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+.dotss5{
+    position:relative;
+    top:625px;
+    left:-20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 50%; 
+}
+
+.dotss6{
+    position:relative;
+    top:615px;
+    left:0px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+
+.dotss7{
+    position:relative;
+    top:605px;
+    left:20px;
+    width: 10px;
+    height:10px;
+    background-color: rgb(88, 86, 86);
+    border-radius: 50%; 
+}
+
+.pro{
+    position: relative;
+    top:-20px;
+    left:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.projects{
+    position:relative;
+    top:-90px;
+    left: 15px;
+    color: aliceblue;
+
+    
+
+}
+.li_ne{
+    position:relative;
+    border-top: 1px solid aliceblue;
+    margin: px 0;
+    width: 325px;
+    top:-55px;
+}
+.certi{
+    position: relative;
+    top:-45px;
+    left:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+.certificates{
+    position: relative;
+    left: 25px;
+    color: aliceblue;
+
+}
+
+.cp{
+    position: relative;
+    top:250px;
+    left: 150px;
+    font-size:25px;
+    color: aliceblue;
+}
+.cpp h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 50px;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+
+
+
+
+
